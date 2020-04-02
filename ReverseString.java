@@ -23,13 +23,4 @@ public class ReverseString {
 	}
 
 	
-		/*System.out.println("Enter string to Reverse :");
-		Scanner sc=new Scanner(System.in);
-		String st=sc.nextLine();
-		String reverse="";
-		for(int x=st.length()-1;x>=0;x--){
-			reverse=reverse+st.charAt(x);
-		}
-System.out.println("Reversed string is");
-System.out.println(reverse);
-	}*/
+		
