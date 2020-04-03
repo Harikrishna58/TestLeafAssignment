@@ -32,11 +32,13 @@ public class Acme {
 		driver.findElementById("vendorName").sendKeys("Blue Lagoon");
 		driver.findElementById("buttonSearch").click();
 		
-		 String cname=driver.findElementByXPath("//table[@class='table']").getText();
+		 String cname=driver.findElementByXPath("//td[text()='France']").getText();
 		 System.out.println(cname);
 		
-		 driver.findElementByXPath("//a[@href='/account/logout/']").click();
+		 driver.findElementByLinkText("Log Out").click();
 		 driver.close();
+	}
+}
 		
 		
 		
